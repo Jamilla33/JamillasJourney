@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home-bg {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/Gold.jpg.jpg");
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.background {
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/Blackandgold.jpg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+
+.header { 
+    height: 100vh;
+    background-position:center; 
+    background-size:cover;
+    text-align: left; 
+}
+
+.nav-menu {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    color: whitesmoke; 
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+.nav-menu li a:hover {
+    border: 1px solid black;
+    background-color: teal;
+
+}
+
+.tagline {
+    color: whitesmoke;
+    text-shadow: teal;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    /* font-weight: bold; */
+    width: auto;
+    margin: left;
+    margin: top;
+
+}
+
+.enter {
+    margin-top: 30px;
+    margin-left: 540px;
+    position: center;
+}
+
+.bttn {
+    border: 1px solid red;
+    padding: 10px 30px;
+    color: teal;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    position: center;
+}
+
+.enter a:hover {
+    background-color: teal;
+
+}
+
+.large {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+
+.center {
+    text-align: center; 
+
+}
+
+
+p {
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: whitesmoke; 
+}   
+
+
+.box {
+    text-align: center;
+    padding: 25px;
+    margin: 150px;
+    
+}
+
+h1 {
+    color: teal;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: top;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0;
+    border-style: double;
+    padding: 15px;   
+}
+
+h4 {
+
+    color: teal;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
+
+
+
